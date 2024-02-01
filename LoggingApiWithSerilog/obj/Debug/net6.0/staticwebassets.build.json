@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oYAXGdjjj4kyEJAuYW8t2ruIfPNqPLFYDK/VRhbUAwU=",
+  "Source": "LoggingApiWithSerilog",
+  "BasePath": "_content/LoggingApiWithSerilog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

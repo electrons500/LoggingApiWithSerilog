@@ -1,0 +1,28 @@
+2024-02-01 11:18:09.289 +00:00 [INF] Now listening on: https://localhost:7109
+2024-02-01 11:18:09.418 +00:00 [INF] Now listening on: http://localhost:5287
+2024-02-01 11:18:09.429 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-01 11:18:09.430 +00:00 [INF] Hosting environment: Development
+2024-02-01 11:18:09.431 +00:00 [INF] Content root path: C:\Users\elect\source\repos\LoggingApiWithSerilog\LoggingApiWithSerilog\
+2024-02-01 11:23:25.284 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7109/swagger/index.html - -
+2024-02-01 11:23:25.488 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7109/swagger/index.html - - - 200 - text/html;charset=utf-8 235.2575ms
+2024-02-01 11:23:25.904 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7109/swagger/v1/swagger.json - -
+2024-02-01 11:23:26.233 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7109/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 328.5440ms
+2024-02-01 11:24:48.207 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7109/WeatherForecast - -
+2024-02-01 11:24:48.221 +00:00 [INF] Executing endpoint 'LoggingApiWithSerilog.Controllers.WeatherForecastController.Get (LoggingApiWithSerilog)'
+2024-02-01 11:24:48.239 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingApiWithSerilog.WeatherForecast] Get() on controller LoggingApiWithSerilog.Controllers.WeatherForecastController (LoggingApiWithSerilog).
+2024-02-01 11:24:48.256 +00:00 [INF] WeatherForcast => [{"Date":"2024-02-02T11:24:48.2490634+00:00","TemperatureC":-10,"TemperatureF":15,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2024-02-03T11:24:48.2493468+00:00","TemperatureC":51,"TemperatureF":123,"Summary":"Mild","$type":"WeatherForecast"},{"Date":"2024-02-04T11:24:48.2493495+00:00","TemperatureC":-5,"TemperatureF":24,"Summary":"Sweltering","$type":"WeatherForecast"},{"Date":"2024-02-05T11:24:48.2493497+00:00","TemperatureC":22,"TemperatureF":71,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2024-02-06T11:24:48.2493498+00:00","TemperatureC":18,"TemperatureF":64,"Summary":"Balmy","$type":"WeatherForecast"}]
+2024-02-01 11:24:48.302 +00:00 [INF] Executing ObjectResult, writing value of type 'LoggingApiWithSerilog.WeatherForecast[]'.
+2024-02-01 11:24:48.319 +00:00 [INF] Executed action LoggingApiWithSerilog.Controllers.WeatherForecastController.Get (LoggingApiWithSerilog) in 66.7533ms
+2024-02-01 11:24:48.323 +00:00 [INF] Executed endpoint 'LoggingApiWithSerilog.Controllers.WeatherForecastController.Get (LoggingApiWithSerilog)'
+2024-02-01 11:24:48.328 +00:00 [INF] HTTP GET /WeatherForecast responded 200 in 113.2645 ms
+2024-02-01 11:24:48.331 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7109/WeatherForecast - - - 200 - application/json;+charset=utf-8 124.4685ms
+2024-02-01 11:25:36.156 +00:00 [INF] Request starting HTTP/2 GET https://localhost:7109/WeatherForecast - -
+2024-02-01 11:25:36.159 +00:00 [INF] Executing endpoint 'LoggingApiWithSerilog.Controllers.WeatherForecastController.Get (LoggingApiWithSerilog)'
+2024-02-01 11:25:36.164 +00:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[LoggingApiWithSerilog.WeatherForecast] Get() on controller LoggingApiWithSerilog.Controllers.WeatherForecastController (LoggingApiWithSerilog).
+2024-02-01 11:25:36.171 +00:00 [INF] WeatherForcast => [{"Date":"2024-02-02T11:25:36.1709360+00:00","TemperatureC":-4,"TemperatureF":25,"Summary":"Bracing","$type":"WeatherForecast"},{"Date":"2024-02-03T11:25:36.1709475+00:00","TemperatureC":32,"TemperatureF":89,"Summary":"Warm","$type":"WeatherForecast"},{"Date":"2024-02-04T11:25:36.1709482+00:00","TemperatureC":30,"TemperatureF":85,"Summary":"Chilly","$type":"WeatherForecast"},{"Date":"2024-02-05T11:25:36.1709485+00:00","TemperatureC":37,"TemperatureF":98,"Summary":"Freezing","$type":"WeatherForecast"},{"Date":"2024-02-06T11:25:36.1709488+00:00","TemperatureC":31,"TemperatureF":87,"Summary":"Cool","$type":"WeatherForecast"}]
+2024-02-01 11:25:36.237 +00:00 [INF] Executing ObjectResult, writing value of type 'LoggingApiWithSerilog.WeatherForecast[]'.
+2024-02-01 11:25:36.251 +00:00 [INF] Executed action LoggingApiWithSerilog.Controllers.WeatherForecastController.Get (LoggingApiWithSerilog) in 80.3554ms
+2024-02-01 11:25:36.258 +00:00 [INF] Executed endpoint 'LoggingApiWithSerilog.Controllers.WeatherForecastController.Get (LoggingApiWithSerilog)'
+2024-02-01 11:25:36.266 +00:00 [INF] HTTP GET /WeatherForecast responded 200 in 107.2672 ms
+2024-02-01 11:25:36.273 +00:00 [INF] Request finished HTTP/2 GET https://localhost:7109/WeatherForecast - - - 200 - application/json;+charset=utf-8 116.6110ms
+2024-02-01 11:35:11.592 +00:00 [INF] Application is shutting down...
